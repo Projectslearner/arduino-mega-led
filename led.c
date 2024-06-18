@@ -1,20 +1,20 @@
 /*
-    Project name : LED
+    Project name : External LED 
     Modified Date: 14-06-2024
     Code by : Projectslearner
     Website : https://projectslearner.com/learn/arduino-mega-led
 */
 
-// Define the pin number where the LED is connected
+// Define the pin number where the External LED is connected
 const int ledPin = 13;
 
 void setup() {
-  // Set the LED pin as an output
+  // Set the External LED pin as an output
   pinMode(ledPin, OUTPUT);
 }
 
 void loop() {
-  // Turn the LED on (HIGH) for 1 second
+  // Turn the External LED on (HIGH) for 1 second
   digitalWrite(ledPin, HIGH);
   delay(1000);
 
